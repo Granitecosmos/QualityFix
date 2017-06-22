@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/StatDef[defName = "MarketValue"]/parts/li/factorGood</xpath>
+		<value>
+			<factorGood>1.1</factorGood>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/StatDef[defName = "MarketValue"]/parts/li/factorSuperior</xpath>
+		<value>
+			<factorSuperior>1.2</factorSuperior>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/StatDef[defName = "MarketValue"]/parts/li/factorExcellent</xpath>
+		<value>
+			<factorExcellent>1.3</factorExcellent>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/StatDef[defName = "MarketValue"]/parts/li/factorMasterwork</xpath>
+		<value>
+			<factorMasterwork>1.4</factorMasterwork>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/StatDef[defName = "MarketValue"]/parts/li/factorLegendary</xpath>
+		<value>
+			<factorLegendary>1.5</factorLegendary>
+		</value>
+	</Operation>
+</Patch>
