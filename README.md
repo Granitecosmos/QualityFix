@@ -20,8 +20,12 @@ All this mod does is change the market value scaling of quality from 0.4-0.6-0.8
 **Trickier than you'd think.** Lower values mean less severe Raids, especially lategame, but Raiders can spawn with better stuff more frequently too. This also affects money generation via anything that produces things with quality. So unless your export consists merely of organs and drugs, you'll need more time to amass the same amount of silver you used to have.
  
 ## Compatibility
-Any mod that changes the market value scaling of quality will obviously be incompatible.
+Any mod that changes the market value scaling of quality above normal via patching might be troublesome.
  
 ## Changelog
 Version 1.0.16.0.0
 - Initial Release
+
+Version 1.0.17b.0.0
+- Updated for A17b
+- Switched to patching for editing vanilla defs
